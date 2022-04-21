@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carousel Template for bootstrap</title>
+    <!--bootstrap cdn-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
+<body>
+<!--navbar-->
+<nav class="navbar navbar-expand-lg navbar-white bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Carousel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link custom-secondary" href="#">Link</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<!--navbar end-->
+
+<!--slide bar-->
+<section id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="images/1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block custom-carousel-caption-left text-white top-30">
+                <h1>Example headline.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at
+                    eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <button type="button" class="btn btn-primary btn-lg">Large button</button>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-white top-30">
+                <h1>Another example headline.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at
+                    eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <button type="button" class="btn btn-primary btn-lg">Large button</button>
+            </div>
+        </div>
+        <div class="carousel-item ">
+            <img src="images/1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block custom-carousel-caption-right text-white top-30">
+                <h1>One more for good measure.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at
+                    eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit</p>
+                <button type="button" class="btn btn-primary btn-lg">Large button</button>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</section>
+
+<!--slide bar end-->
+<section class="container mt-5 mb-5">
+    <div class="row text-center">
+        <div class="col-4">
+            <img src="images/1.jpg" class="rounded-circle" alt="Cinque Terre" height="150px" width="150px">
+            <h1>Heading</h1>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+                vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+                cursus magna.</p>
+            <button type="button" class="btn btn-secondary">Large button</button>
+        </div>
+        <div class="col-4">
+            <img src="images/1.jpg" class="rounded-circle" alt="Cinque Terre" height="150px" width="150px">
+            <h1>Heading</h1>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+                vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+                cursus magna.</p>
+            <button type="button" class="btn btn-secondary ">Large button</button>
+
+        </div>
+        <div class="col-4">
+            <img src="images/1.jpg" class="rounded-circle" alt="Cinque Terre" height="150px" width="150px">
+            <h1>Heading</h1>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+                vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+                cursus magna.</p>
+            <button type="button" class="btn btn-secondary ">Large button</button>
+
+        </div>
+    </div>
+</section>
+
+<hr class="container"/>
+
+<section class="container mt-5 pt-5">
+    <div class="row">
+        <div class="col-8">
+
+            <h1 class="mt-5">First featurette heading. It'll blow your mind.</h1>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+                Praesent commodo
+                cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-4">
+
+            <img src="https://via.placeholder.com/500X500" class="img-fluid" alt=""/>
+        </div>
+    </div>
+</section>
+
+
+<section class="container mt-5 pt-5">
+    <div class="row">
+        <div class="col-4">
+            <img src="https://via.placeholder.com/500X500" class="img-fluid" alt=""/>
+        </div>
+        <div class="col-8">
+            <h1 class="mt-5">Oh yeah, it's that good. See for yourself.</h1>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                commodo.</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="container mt-5 pt-5">
+    <div class="row">
+        <div class="col-8">
+
+            <h1 class="mt-5">And lastly, this one. Checkmate.</h1>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                commodo.</p>
+        </div>
+        <div class="col-4">
+
+            <img src="https://via.placeholder.com/500X500" class="img-fluid" alt=""/>
+        </div>
+    </div>
+</section>
+
+
+<footer class="container-fluid mt-5 pt-5   ">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <ul class="demo" style="list-style-type:none;">
+                    <li><a href="#"><h2>Front</h2></a></li>
+                    <li><a href="#"> 153 Williamson Plaza, Maggieberg</a></li>
+                    <li><a href="#"> +1 (062) 109-9222</a></li>
+                </ul>
+
+            </div>
+            <div class="col-3">
+                <ul class="demo" style="list-style-type:none;">
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#"> About</a></li>
+                    <li><a href="#"> Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#"> Customers</a></li>
+                    <li><a href="#"> Hire us</a></li>
+                </ul>
+
+            </div>
+            <div class="col-2">
+                <ul class="demo" style="list-style-type:none;">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#"> Press</a></li>
+                    <li><a href="#"> Integrations</a></li>
+                    <li><a href="#"> Pricing</a></li>
+                </ul>
+
+            </div>
+            <div class="col-2">
+                <ul class="demo" style="list-style-type:none;">
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#"> Support</a></li>
+                    <li><a href="#"> Docs</a></li>
+                    <li><a href="#">Status</a></li>
+                    <li><a href="#"> API Reference</a></li>
+                    <li><a href="#"> Tech Requirements</a></li>
+                </ul>
+
+            </div>
+            <div class="col-2">
+                <ul class="demo" style="list-style-type:none;">
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#"> Help</a></li>
+                    <li><a href="#">Your Account</a></li>
+                </ul>
+
+            </div>
+
+
+        </div>
+    </div>
+    <!-->
+    <hr class="container bg-primary"/>
+
+    <div class="container mt-5  ">
+        <div class="row ">
+            <div class="col-6">
+                <ul class="demo">
+                    <a class href="#"> Privacy & Policy &nbsp; / &nbsp;</a>
+                    <a href="#"> Terms &nbsp; / &nbsp;</a>
+                    <a href="#">Site Map</a>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col-6">
+                <ul class="center">
+                <i class="fas ta-facebook-f"></i>
+
+                <img src="images/icons8-facebook-48.png"/>
+                <img src="images/icons8-google-32.png"/>
+                <img src="images/icons8-twitter.png"/>
+                <img src="images/icons8-github-20.png"/>
+                </ul>
+
+            </div>
+
+
+</footer>
+
+
+<!--bootstrap  javascript-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+</html>

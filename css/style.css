@@ -1,0 +1,33 @@
+.navbar-white div a {
+    color: white;
+}
+
+.navbar-white div a:hover {
+    color: white;
+}
+
+.custom-secondary {
+    color: rgba(255, 255, 255, .5) !important;
+}
+
+.custom-carousel-caption-left {
+    text-align: left;
+}
+
+.custom-carousel-caption-right {
+    text-align: right;
+}
+
+.top-30 {
+    top: 30% !important
+}
+.container-fluid   {
+    background-color: #21325b;
+}
+.demo a{
+    color:white;
+    text-decoration: none;
+}
+.center{
+    text-align:right ;
+}
